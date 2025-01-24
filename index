@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to right, #3e92cc, #f78c6b);
+            color: white;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 2rem;
+            align-items: center;
+        }
+
+        header nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero .buttons {
+            margin-top: 2rem;
+        }
+
+        .hero .buttons a {
+            text-decoration: none;
+            background: #00bcd4;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            color: white;
+            margin: 0 0.5rem;
+            font-weight: bold;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            padding: 3rem 2rem;
+        }
+
+        .service-card {
+            background: #1f1f1f;
+            border-radius: 10px;
+            padding: 1.5rem;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .service-card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .service-card h3 {
+            margin-top: 1rem;
+            font-size: 1.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            background: #222;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">PORTFOLIO</div>
+        <nav>
+            <a href="#">Web Development</a>
+            <a href="#">Video</a>
+            <a href="#">Gallery</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Wedo Websihe</h1>
+        <p>Welcome to our portfolio. We specialize in web development, photography, and video editing. Explore our work below!</p>
+        <div class="buttons">
+            <a href="#">Learn More</a>
+            <a href="#">Get in Touch</a>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="service-card">
+            <img src="https://via.placeholder.com/300" alt="Web Development">
+            <h3>Web Development</h3>
+        </div>
+        <div class="service-card">
+            <img src="https://via.placeholder.com/300" alt="Photography">
+            <h3>Photography</h3>
+        </div>
+        <div class="service-card">
+            <img src="https://via.placeholder.com/300" alt="Video Editing">
+            <h3>Video Editing</h3>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Portfolio Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
